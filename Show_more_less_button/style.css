@@ -1,0 +1,162 @@
+
+
+body{
+    background:#7D0541/* #000000*/;
+}
+#main-content{
+    font-family: 'satisfy',cursive;
+    font-size: 2rem;
+    width: 48vw;
+    background: #F75D59;
+    
+    margin: 5.5vh auto 1%;
+    padding: 25px;
+    padding-top: 10px;
+    max-height: 300px;
+    overflow: hidden;
+    border-radius: 45px;
+    text-align: justify;
+    font-size: 1.28rem;
+    
+    -webkit-transition: max-height 0.3s ;
+    -moz-transition: max-height 0.3s;
+    transition: max-height 0.3s;
+}
+#main-content.open{
+    max-height: 1000px;
+     
+    -webkit-transition: max-height 0.7s ;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+#read-more{
+    margin-top: 0;
+    width: 13vw;
+    text-align: center;
+   /* border: 0.2rem /*orangered dashed*/;
+    border-radius: 45px;
+    background-color: rgba(153, 33, 189, 0.452);
+    color:#93FFE8;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.4rem;
+    font-weight: 700;
+
+}
+
+#read-more:hover{
+    background-color: rgba(153, 33, 189, 0.932);
+}
+
+
+
+
+
+
+@media(max-width: 500px){
+    
+    body{
+        width:;
+        background:#7D0541;
+    }
+    
+    #main-content{
+        font-family: sans-serif ;
+        text-align: justify;
+        font-size: 1.3rem;
+        width: 80vw;
+        background: #F75D59;
+
+        margin: 5.5vh auto 4%;
+        padding: 25px;
+        padding-top: 12px;
+        max-height: 58vh;
+        overflow: hidden;
+        border-radius: 15px;
+        
+
+        -webkit-transition: max-height 0.3s ;
+        -moz-transition: max-height 0.3s;
+        transition: max-height 0.3s;
+    }
+    #main-content.open{
+        max-height: 1000px;
+
+        -webkit-transition: max-height 0.7s ;
+        -moz-transition: max-height 0.7s;
+        transition: max-height 0.7s;
+    }
+    #read-more{
+        margin-top: 0;
+        width: 30vw;
+        text-align: center;
+        border-radius: 5px;
+        background-color: rgba(153, 33, 189, 0.452);
+        color:#93FFE8;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 8%;
+        font-size: 1rem;
+        font-weight: 700;
+
+    }
+
+    #read-more:hover{
+        background-color: rgba(153, 33, 189, 0.932);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

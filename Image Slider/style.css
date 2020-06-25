@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgba(0, 0, 0, 0.4);
+}
+.container {
+  width: 90vw;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+#img {
+  margin-top: -8vh;
+  width: 950px;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-radius: 5px;
+  z-index: -1;
+}
+#buttons {
+  position: relative;
+  top: 40vh;
+}
+button {
+  padding: 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 3em;
+  cursor: pointer;
+  background: transparent;
+  color: #fff;
+}
+button:focus {
+  outline: none;
+}
+button:first-of-type {
+  float: left;
+  margin-left: 15vw;
+}
+button:last-of-type {
+  float: right;
+  margin-right: 15vw;
+}

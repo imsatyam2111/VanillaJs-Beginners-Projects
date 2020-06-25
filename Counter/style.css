@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background:#45054f;
+}/*
+h1{
+    animation: fadeIn;
+    
+}  
+@keyframes fadeIn {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}*/
+#box{
+    background: #45054f;
+    position: relative;
+    top: 10vh;
+    left: 35vw;
+    padding: 20px;
+    width: 30vw;
+    height: 55vh;
+    border: 5px solid #ccc;
+}
+
+.btn{
+    border: 2px solid #ccc;
+    border-radius: 50% !important;
+    color: #ccc;
+    background: transparent;
+    margin-top: 30px;
+    width: 60px;
+    height: 60px;
+}
+.btn:first-child{
+    padding-left: 50px !important;
+}
+#clearCount{
+    margin-top: 20px;
+    cursor: pointer;
+}
+#clearCount:hover{
+    color: #aaa !important;
+}

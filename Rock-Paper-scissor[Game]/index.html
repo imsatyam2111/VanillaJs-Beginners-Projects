@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Rock-Paper-Scissor</title>
+ 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        
+        <script src="https://kit.fontawesome.com/df90884292.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        
+        <div class="container-fluid">
+            <h1 class="text-center mt-3">Rock-Paper-Scissor</h1><br>
+
+            <!--section for modal which is to be opened when user makes his choice-->
+            <div id="myModal" class="modal">
+                <div class="modal-content"> 
+                    <button type="button" class="close " aria-label="Close">
+                        <span aria-hidden="true" class="float-right">&times;</span>
+                      </button><br><br>
+                    <div id="result"></div>
+                    <div id="playerIndicator">
+                        <p>You</p>
+                        <p>Computer</p>
+                    </div>
+                    <div id="iconContainer">
+                        <p id="iconUser"></p>
+                        <p id="iconComp"></p>
+                    </div>
+                </div>   
+            </div>
+
+            <!--Scorecard section-->
+            <div id="info" class="mx-auto">
+                <div id="scorecard" class="pd-3">
+                        
+                    <div id="userScore" class="score">
+                        <p></p>
+                    </div>
+                        
+                    <div id="compScore" class="score">
+                        <p></p>
+                    </div>
+                    
+                </div>
+                <button type="button" class=" restart btn-danger"><i class="fas fa-redo"></i></button>
+            </div>
+
+            <!--section for user choice-->
+            
+
+            <div class="userScreen rounded mx-auto p-5 ">
+                <button class=" button rock btn btn-success w-75 w-50">Rock</button>
+                <button class=" button paper btn btn-primary w-75 w-50">Paper</button>
+                <button class=" button scissor btn btn-info w-75 w-50">Scissor</button>        
+            </div>    
+        </div>    
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="function.js"></script>
+    </body>
+    </html>
