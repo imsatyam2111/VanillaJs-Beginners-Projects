@@ -1,47 +1,44 @@
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-
 }
 
 body{
-    background:#45054f;
-}/*
-h1{
-    animation: fadeIn;
-    
-}  
-@keyframes fadeIn {
-    from{opacity: 0;}
-    to{opacity: 1;}
-}*/
-#box{
-    background: #45054f;
-    position: relative;
-    top: 10vh;
-    left: 35vw;
-    padding: 20px;
-    width: 30vw;
-    height: 55vh;
-    border: 5px solid #ccc;
+  text-align: center;
 }
-
-.btn{
-    border: 2px solid #ccc;
-    border-radius: 50% !important;
-    color: #ccc;
-    background: transparent;
-    margin-top: 30px;
-    width: 60px;
-    height: 60px;
+.container {
+  width: 35vh;
+  margin-top: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #000;
+  padding: 12px;
 }
-.btn:first-child{
-    padding-left: 50px !important;
+.btns {
+  margin-top: 26px;
 }
-#clearCount{
-    margin-top: 20px;
-    cursor: pointer;
+button {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  font-size: 1.4em;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
 }
-#clearCount:hover{
-    color: #aaa !important;
+button:focus {
+  outline: none;
+}
+button.btn-minus {
+  float: left;
+  margin-left: 12px;
+}
+button.btn-plus {
+  float: right;
+  margin-right: 12px;
+}
+.count-clear {
+  margin-top: 24px;
+  cursor: pointer;
 }

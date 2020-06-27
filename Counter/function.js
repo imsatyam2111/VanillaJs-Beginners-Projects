@@ -1,27 +1,22 @@
-$(function(){
-    $("h2").addClass("animated bounce");
-    var count = 0;
-    
-    // button to decrease the value of counter
-    $("#btnDec").click(function(){
-        if (count >= 1) {
-            count = count - 1;
-            $("h2").text(count);
-        }
-    })
+let count = 0;
 
-    // button to increment the counter
-    $("#btnInc").click(function(){
-        count = count + 1;
-        $("h2").text(count);
-    })
+const minus = document.querySelector(".btn-minus");
+const plus = document.querySelector(".btn-plus");
+const counts = document.querySelector(".counts");
+const clearCount = document.querySelector(".count-clear");
 
-    // set the counter to null
-    $("#clearCount").click(function(){
-        count = 0;
-        $("h2").text(count);
-    });
-
+plus.addEventListener("click", () => {
+  count += 1;
+  counts.innerHTML = count;
+});
+minus.addEventListener("click", () => {
+  if (count > 0) {
+    count -= 1;
+    counts.innerHTML = count;
+  }
 });
 
-
+clearCount.addEventListener("click", () => {
+  count = 0;
+  counts.innerHTML = count;
+});
